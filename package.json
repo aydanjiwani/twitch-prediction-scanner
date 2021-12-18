@@ -1,0 +1,15 @@
+{
+  "name": "twitch-prediction-scanner",
+  "version": "1.0.0",
+  "description": "simple page that reads live data on twitch predictions",
+  "main": "server.js",
+  "scripts": {
+    "start": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  }
+}
