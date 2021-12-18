@@ -10,8 +10,8 @@ app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(8000, function () {
-    console.log("Server is running on localhost:8000");
+app.listen(process.env.port || 80, function () {
+    console.log("Server is running on localhost");
 });
 
 exports.client_id=client_id;
