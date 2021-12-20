@@ -11,7 +11,7 @@ function readCookie(name) {
 }
 
 var clientId = readCookie("clientId"); 
-var redirectURI = 'http://localhost:80';
+var redirectURI = readCookie("redirectURI");
 var scope = 'chat:read';
 var ws;
 
